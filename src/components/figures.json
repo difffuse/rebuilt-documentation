@@ -1,0 +1,408 @@
+{
+  "overview": {
+    "file": "overview.jpg",
+    "alt": "Auto settings and the Buddha source model",
+    "caption": "Auto settings and the Buddha source model. Click to enlarge.",
+    "width": 3840,
+    "height": 2100,
+    "marks": [
+      {
+        "x": 2485,
+        "y": 465,
+        "w": 580,
+        "h": 290,
+        "label": "Set the model type, topology and target count."
+      },
+      {
+        "x": 2485,
+        "y": 765,
+        "w": 580,
+        "h": 290,
+        "label": "Choose the texture resolution and output format."
+      },
+      {
+        "x": 2485,
+        "y": 1065,
+        "w": 580,
+        "h": 95,
+        "label": "Run the complete workflow with Rebuild Asset."
+      }
+    ],
+    "viewBox": "850 260 2310 1400"
+  },
+  "installation": {
+    "file": "installation.jpg",
+    "alt": "Rebuilt installed as a Blender extension",
+    "caption": "Rebuilt installed as a Blender extension. Click to enlarge.",
+    "width": 2100,
+    "height": 1438,
+    "marks": [
+      {
+        "x": 20,
+        "y": 490,
+        "w": 360,
+        "h": 65,
+        "label": "Get Extensions is the extension installation and management section."
+      },
+      {
+        "x": 420,
+        "y": 230,
+        "w": 1660,
+        "h": 75,
+        "label": "Rebuilt appears under Installed after installation."
+      },
+      {
+        "x": 2020,
+        "y": 80,
+        "w": 65,
+        "h": 60,
+        "label": "Open this menu to use Install from Disk."
+      }
+    ],
+    "viewBox": "0 55 2100 590"
+  },
+  "preferences": {
+    "file": "preferences.jpg",
+    "alt": "Rebuilt addon preferences",
+    "caption": "Rebuilt addon preferences. Click to enlarge.",
+    "width": 1660,
+    "height": 400,
+    "marks": [
+      {
+        "x": 25,
+        "y": 210,
+        "w": 1610,
+        "h": 90,
+        "label": "Set 0 for Automatic, or enter a custom memory limit in GiB."
+      },
+      {
+        "x": 25,
+        "y": 325,
+        "w": 1610,
+        "h": 55,
+        "label": "Open Installation Folder locates the installed extension."
+      }
+    ],
+    "viewBox": "0 0 1660 400"
+  },
+  "manual": {
+    "file": "manual.jpg",
+    "alt": "The four Manual workflow stages",
+    "caption": "The four Manual workflow stages. Click to enlarge.",
+    "width": 3840,
+    "height": 2100,
+    "marks": [
+      {
+        "x": 2770,
+        "y": 400,
+        "w": 300,
+        "h": 58,
+        "label": "Switch to Manual."
+      },
+      {
+        "x": 2485,
+        "y": 465,
+        "w": 580,
+        "h": 335,
+        "label": "Open a stage to adjust its settings; use the arrow on the right to run it."
+      },
+      {
+        "x": 2485,
+        "y": 865,
+        "w": 580,
+        "h": 335,
+        "label": "Review the asset summary and progress."
+      }
+    ],
+    "viewBox": "850 260 2310 1400"
+  },
+  "retopology": {
+    "file": "retopology.jpg",
+    "alt": "Retopology settings and low mesh wireframe",
+    "caption": "Retopology settings and low mesh wireframe. Click to enlarge.",
+    "width": 3840,
+    "height": 2100,
+    "marks": [
+      {
+        "x": 2730,
+        "y": 718,
+        "w": 315,
+        "h": 100,
+        "label": "Set the target count and choose Strict or Dynamic."
+      },
+      {
+        "x": 2500,
+        "y": 815,
+        "w": 545,
+        "h": 190,
+        "label": "Tune detail preservation for the model."
+      },
+      {
+        "x": 2500,
+        "y": 1630,
+        "w": 545,
+        "h": 225,
+        "label": "Review the actual result: this example produced 8,362 quads."
+      }
+    ],
+    "viewBox": "850 350 2310 1550"
+  },
+  "seams": {
+    "file": "seams.jpg",
+    "alt": "Generated seam cuts on the Buddha",
+    "caption": "Generated seam cuts on the Buddha. Click to enlarge.",
+    "width": 3840,
+    "height": 2100,
+    "marks": [
+      {
+        "x": 2510,
+        "y": 705,
+        "w": 535,
+        "h": 145,
+        "label": "Choose Balanced or Fewer islands and whether to preserve marked seams."
+      },
+      {
+        "x": 2510,
+        "y": 1005,
+        "w": 535,
+        "h": 75,
+        "label": "Recalculate the generated seams."
+      },
+      {
+        "x": 2510,
+        "y": 1115,
+        "w": 535,
+        "h": 75,
+        "label": "Accept your manually edited seams with Use Existing Seams."
+      }
+    ],
+    "viewBox": "850 350 2310 1300"
+  },
+  "unwrap": {
+    "file": "unwrap.jpg",
+    "alt": "The packed UV layout",
+    "caption": "The packed UV layout. Click to enlarge.",
+    "width": 3840,
+    "height": 2100,
+    "marks": [
+      {
+        "x": 1180,
+        "y": 780,
+        "w": 550,
+        "h": 275,
+        "label": "Choose the unwrap method, packer, search time, rotation and padding."
+      },
+      {
+        "x": 1180,
+        "y": 1065,
+        "w": 550,
+        "h": 60,
+        "label": "Open the UV review with Show UVs."
+      },
+      {
+        "x": 2010,
+        "y": 510,
+        "w": 970,
+        "h": 970,
+        "label": "Inspect the packed islands inside a single UV tile."
+      }
+    ],
+    "viewBox": "600 400 2520 1170"
+  },
+  "existing": {
+    "file": "unwrap.jpg",
+    "alt": "Controls for accepting an existing UV layout",
+    "caption": "Controls for accepting an existing UV layout. Click to enlarge.",
+    "width": 3840,
+    "height": 2100,
+    "marks": [
+      {
+        "x": 1180,
+        "y": 1235,
+        "w": 550,
+        "h": 80,
+        "label": "Use Existing UVs accepts the current layout without unwrapping or repacking it."
+      }
+    ],
+    "viewBox": "1140 690 660 660"
+  },
+  "bake": {
+    "file": "bake.jpg",
+    "alt": "Bake Maps and texture output settings",
+    "caption": "Bake Maps and texture output settings. Click to enlarge.",
+    "width": 3840,
+    "height": 2100,
+    "marks": [
+      {
+        "x": 2505,
+        "y": 865,
+        "w": 540,
+        "h": 150,
+        "label": "Select the maps to transfer from the source."
+      },
+      {
+        "x": 2505,
+        "y": 1065,
+        "w": 540,
+        "h": 155,
+        "label": "Choose the resolution and normal space."
+      },
+      {
+        "x": 2505,
+        "y": 1215,
+        "w": 540,
+        "h": 200,
+        "label": "Set the texture file format and bit depth."
+      }
+    ],
+    "viewBox": "850 400 2310 1250"
+  },
+  "export": {
+    "file": "export.jpg",
+    "alt": "Export destination and format",
+    "caption": "Export destination and format. Click to enlarge.",
+    "width": 3840,
+    "height": 2100,
+    "marks": [
+      {
+        "x": 2728,
+        "y": 540,
+        "w": 330,
+        "h": 230,
+        "label": "Choose Unity, Unreal or Godot."
+      },
+      {
+        "x": 2495,
+        "y": 765,
+        "w": 565,
+        "h": 75,
+        "label": "Export the selected completed asset."
+      }
+    ],
+    "viewBox": "2410 380 750 550"
+  },
+  "unity": {
+    "file": "unity.jpg",
+    "alt": "Unity export and render pipeline selection",
+    "caption": "Unity export and render pipeline selection. Click to enlarge.",
+    "width": 3840,
+    "height": 2100,
+    "marks": [
+      {
+        "x": 2730,
+        "y": 540,
+        "w": 325,
+        "h": 55,
+        "label": "Choose Unity."
+      },
+      {
+        "x": 2495,
+        "y": 600,
+        "w": 560,
+        "h": 45,
+        "label": "The format is displayed as a read-only label."
+      },
+      {
+        "x": 2495,
+        "y": 645,
+        "w": 560,
+        "h": 55,
+        "label": "Match the render pipeline to your Unity project."
+      }
+    ],
+    "viewBox": "2410 380 750 550"
+  },
+  "unreal": {
+    "file": "unreal.jpg",
+    "alt": "Unreal export as a self-contained GLB",
+    "caption": "Unreal export as a self-contained GLB. Click to enlarge.",
+    "width": 3840,
+    "height": 2100,
+    "marks": [
+      {
+        "x": 2730,
+        "y": 540,
+        "w": 325,
+        "h": 55,
+        "label": "Choose Unreal."
+      },
+      {
+        "x": 2495,
+        "y": 600,
+        "w": 560,
+        "h": 45,
+        "label": "glTF (.glb) is the fixed format for this destination."
+      },
+      {
+        "x": 2495,
+        "y": 710,
+        "w": 560,
+        "h": 80,
+        "label": "Write a self-contained GLB into the asset folder."
+      }
+    ],
+    "viewBox": "2410 380 750 500"
+  },
+  "godot": {
+    "file": "godot.jpg",
+    "alt": "Godot export as a self-contained GLB",
+    "caption": "Godot export as a self-contained GLB. Click to enlarge.",
+    "width": 3840,
+    "height": 2100,
+    "marks": [
+      {
+        "x": 2730,
+        "y": 540,
+        "w": 325,
+        "h": 55,
+        "label": "Choose Godot."
+      },
+      {
+        "x": 2495,
+        "y": 600,
+        "w": 560,
+        "h": 45,
+        "label": "glTF (.glb) is the fixed format for this destination."
+      },
+      {
+        "x": 2495,
+        "y": 710,
+        "w": 560,
+        "h": 80,
+        "label": "Write a self-contained GLB into the asset folder."
+      }
+    ],
+    "viewBox": "2410 380 750 500"
+  },
+  "report": {
+    "file": "report.jpg",
+    "alt": "Completed asset and quality reports",
+    "caption": "Completed asset and quality reports. Click to enlarge.",
+    "width": 3840,
+    "height": 2100,
+    "marks": [
+      {
+        "x": 2485,
+        "y": 645,
+        "w": 580,
+        "h": 115,
+        "label": "Compare the achieved count with the requested target."
+      },
+      {
+        "x": 2485,
+        "y": 775,
+        "w": 580,
+        "h": 285,
+        "label": "Read the shape and topology checks."
+      },
+      {
+        "x": 2485,
+        "y": 1080,
+        "w": 580,
+        "h": 575,
+        "label": "Review any warnings before deciding whether to continue or change settings."
+      }
+    ],
+    "viewBox": "2410 320 750 1370"
+  }
+}
