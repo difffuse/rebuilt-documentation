@@ -1,3 +1,26 @@
-/* Initial header: replace with approved Rebuilt artwork when ready. */
-.heroBanner {padding: 5rem 0; text-align: center; background: #303846; color: white;}
-@media screen and (max-width: 996px) {.heroBanner {padding: 3rem 1rem;}}
+.hero { background:linear-gradient(115deg,#22272c 0%,#3b4249 100%);color:#fff;overflow:hidden; }
+.heroInner { display:grid;grid-template-columns:1.05fr 1fr;align-items:center;min-height:540px; }
+.copy {padding:4rem 0;position:relative;z-index:1;}
+.eyebrow {font-size:.74rem;letter-spacing:.16em;color:#c8ccd0;margin-bottom:1.4rem;}
+.copy h1 {font-size:clamp(3rem,5.6vw,5.6rem);letter-spacing:-.055em;line-height:1.05;margin:0 0 .8rem;}
+.tagline {font-size:1.65rem;letter-spacing:.025em;color:#e0e2e4;margin-bottom:1.5rem;}
+.description {font-size:1.05rem;color:#c7cbd0;line-height:1.8;margin-bottom:2rem;}
+.cta {background:#fff;color:#24292d;border-color:#fff;box-shadow:0 4px 16px #0002;}
+.cta:hover {background:#eee;color:#111;}
+.cta span{margin-left:1rem;}
+.quick {display:block;color:#ddd;font-size:.9rem;margin-top:1rem;text-decoration:underline;text-underline-offset:4px;}
+.quick:hover {color:#fff;}
+.buddha {width:100%;max-height:570px;object-fit:contain;align-self:end;filter:drop-shadow(0 20px 32px #0005);}
+.main{padding-top:3rem;padding-bottom:3rem;}
+.sectionIntro{text-align:center;margin-bottom:2rem;}
+.sectionIntro h2{font-size:1.7rem;margin-bottom:.6rem;}
+.sectionIntro p{color:var(--ifm-color-emphasis-700);}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;}
+.feature{color:inherit;padding:1.3rem 0;border-top:1px solid var(--ifm-color-emphasis-300);}
+.feature:hover{text-decoration:none;color:inherit;}
+.number{font-size:.8rem;letter-spacing:.08em;color:var(--ifm-color-emphasis-600);}
+.feature h3{margin:.7rem 0;font-size:1.3rem;}.feature h3 span{float:right;color:var(--ifm-color-emphasis-500);}
+.feature p{color:var(--ifm-color-emphasis-700);line-height:1.7;}
+.getStarted{margin-top:2rem;padding:2rem;background:var(--ifm-color-emphasis-100);display:flex;align-items:center;justify-content:space-between;gap:2rem;border-radius:4px;}
+.getStarted h2{font-size:1.3rem;margin:0 0 .4rem;}.getStarted p{margin:0;color:var(--ifm-color-emphasis-700);}
+@media(max-width:800px){.heroInner{grid-template-columns:1fr;}.copy{padding:3rem 0 1rem;}.buddha{height:350px;}.features{grid-template-columns:1fr;gap:.4rem;}.getStarted{display:block}.getStarted a{margin-top:1.2rem}.sectionIntro{text-align:left;}}
