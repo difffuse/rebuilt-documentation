@@ -102,3 +102,18 @@
 .navbar-icon-link:hover i {
   color: var(--ifm-color-primary);
 }
+
+/* Screenshot callouts follow the yellow outlines used in the Interiors guide. */
+.doc-figure { margin: 1.8rem 0 2.4rem; }
+.doc-figure-open { display:block; width:100%; padding:0; border:0; background:#252525; cursor:zoom-in; line-height:0; }
+.doc-figure svg { display:block; width:100%; height:auto; }
+.doc-figure figcaption { margin-top:.7rem; font-size:.88rem; color:var(--ifm-color-emphasis-700); }
+.figure-key { display:flex; flex-wrap:wrap; gap:.6rem 2rem; padding-left:1.5rem; margin-top:.75rem; font-size:.9rem; }
+.figure-key li::marker { font-weight:700; }
+.figure-lightbox { position:fixed; inset:0; z-index:1000; background:rgba(13,15,18,.96); display:flex; align-items:center; justify-content:center; flex-direction:column; padding:3.5rem 2rem 1rem; cursor:zoom-out; }
+.figure-lightbox-image { width:min(1600px,95vw); height:80vh; display:flex; justify-content:center; }
+.figure-lightbox-image svg { width:auto; max-width:100%; height:100%; }
+.figure-lightbox p { color:#ddd; font-size:.85rem; margin-top:1rem; }
+.figure-close { position:absolute; right:1.3rem; top:.8rem; color:white; background:transparent; border:0; font-size:2rem; cursor:pointer; }
+.doc-figure-open:focus-visible,.figure-close:focus-visible { outline:3px solid #d9a332; outline-offset:4px; }
+@media(max-width:600px){.figure-lightbox{padding:3rem .5rem 1rem}.figure-key{display:block}.figure-key li{margin:.4rem 0}}
