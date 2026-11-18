@@ -1,0 +1,104 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Difffuse Studio Brand Colors */
+:root {
+  /* Primary brand colors - gray palette */
+  --ifm-color-primary: #4a4a4a;
+  --ifm-color-primary-dark: #3d3d3d;
+  --ifm-color-primary-darker: #333333;
+  --ifm-color-primary-darkest: #262626;
+  --ifm-color-primary-light: #5c5c5c;
+  --ifm-color-primary-lighter: #6e6e6e;
+  --ifm-color-primary-lightest: #808080;
+  
+  /* Accent colors - gray secondary palette */
+  --ifm-color-secondary: #707070;
+  --ifm-color-success: #5a5a5a;
+  --ifm-color-warning: #8a8a8a;
+  --ifm-color-danger: #9a9a9a;
+  
+  /* Typography */
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /* Code highlighting */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-color-foreground: rgb(29, 29, 29);
+  --ifm-color-background: rgb(226, 226, 226);
+}
+
+/* Dark mode colors for better readability */
+[data-theme='dark'] {
+  --ifm-color-primary: #c0c0c0;
+  --ifm-color-primary-dark: #b0b0b0;
+  --ifm-color-primary-darker: #a0a0a0;
+  --ifm-color-primary-darkest: #909090;
+  --ifm-color-primary-light: #d0d0d0;
+  --ifm-color-primary-lighter: #e0e0e0;
+  --ifm-color-primary-lightest: #f0f0f0;
+  
+  /* Dark mode accent colors */
+  --ifm-color-secondary: #a9a9a9;
+  --ifm-color-success: #b8b8b8;
+  --ifm-color-warning: #d3d3d3;
+  --ifm-color-danger: #c8c8c8;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-background: rgb(29, 29, 29);
+  --ifm-color-foreground: rgb(226, 226, 226);
+}
+
+/* Custom styling for Difffuse Studio */
+.hero__title {
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Feature cards styling */
+.features {
+  padding: 4rem 0;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+/* Navbar social media icons styling */
+.navbar-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: 0 0.2rem;
+  border-radius: 50%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.navbar-icon-link:hover {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.navbar-icon-link i {
+  font-size: 1.2rem;
+  color: var(--ifm-navbar-link-color);
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-icon-link:hover i {
+  color: var(--ifm-color-primary);
+}
