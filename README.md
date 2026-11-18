@@ -4,7 +4,7 @@ Docusaurus documentation for Rebuilt by Difffuse Studio.
 
 ## Status
 
-Initial site structure only. The full user guide, Rebuilt banner and annotated screenshots are still to be prepared and reviewed. The website has not been published.
+Rebuilt 1.0 user guide: 17 pages, a Buddha homepage render and 14 annotated figures from real Blender captures. Covers installation, Auto and Manual workflows, retopology, seams, UVs, baking, reports, and Unity / Unreal / Godot export.
 
 ## Local development
 
@@ -22,9 +22,9 @@ npm run typecheck
 npm run build
 ```
 
-## Publishing later
+## Publishing
 
-The site is configured for `https://difffuse.github.io/rebuilt-documentation/`. Creating this repository does not publish the website. Configure GitHub Pages and its deployment workflow after the documentation has been reviewed.
+The site is configured for `https://difffuse.github.io/rebuilt-documentation/`. Select **GitHub Actions** in Settings → Pages. The deployment workflow validates and builds the site on pushes to `main`, then deploys the generated `build` directory. The prebuild check rejects missing screenshots, invalid dimensions or missing annotations.
 
 ## Design reference
 

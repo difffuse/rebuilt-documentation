@@ -8,7 +8,6 @@ const config: Config = {
   title: 'Rebuilt',
   tagline: 'Retopo, UV and Bake for Blender',
   favicon: 'img/difffuse_logo.png',
-  // these are just for now
   onBrokenLinks: 'throw',
   markdown: {
     hooks:
@@ -126,7 +125,7 @@ const config: Config = {
           href: 'https://superhivemarket.com/creators/difffusestudio',
           className: 'navbar-icon-link',
           position: 'right',
-          html: '<i class="fa-solid fa-store" aria-label="Blender Market"></i>',
+          html: '<i class="fa-solid fa-store" aria-label="Superhive"></i>',
         },
         {
           href: 'https://www.youtube.com/@difffusestudio',
